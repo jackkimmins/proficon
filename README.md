@@ -10,19 +10,19 @@ https://proficon.stablenetwork.uk/
 ## Icon Types
 
 <div style="display: flex; margin-bottom: 10px">
-    <img src="http://localhost/Proficon/api/initials/jk.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/initials/gb.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/initials/os.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/initials/jp.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/initials/sc.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/initials/jm.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/jk.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/gb.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/os.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/jp.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/sc.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/initials/jm.svg" style="width: 100px; margin-right: 10px">
 </div>
 
 <div style="display: flex">
-    <img src="http://localhost/Proficon/api/identicon/jk.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/identicon/gb.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/identicon/os.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/identicon/jp.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/identicon/sc.svg" style="width: 100px; margin-right: 10px">
-    <img src="http://localhost/Proficon/api/identicon/jm.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/jk.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/gb.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/os.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/jp.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/sc.svg" style="width: 100px; margin-right: 10px">
+    <img src="https://proficon.stablenetwork.uk//api/identicon/jm.svg" style="width: 100px; margin-right: 10px">
 </div>
