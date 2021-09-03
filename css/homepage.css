@@ -71,6 +71,17 @@ main {
     width: 100%;
 }
 
+#txtType {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#txtInput {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 footer {
     background-color: var(--main-bg-colour);
     position: absolute;

@@ -12,14 +12,8 @@ if (isset($_GET['seed']))
 
         if (strlen($text) > 0)
         {
-            //If the input seed is a first and last name, get the initials from it.
-            if (preg_match_all('/ +[A-Z]/', $text) == 1)
-            {
-                $words = explode(' ', $text);
-                $text = strtoupper(substr($words[0], 0, 1) . substr(end($words), 0, 1));
-            }
-
-            newInitialsImg(getColour($text, $validColours), substr($text, 0, 2));
+            //Calls the function that creates the SVG image with the chosen colour.
+            newIdenticonImg(getColour($text, $validColours), strtoupper($seed));
             exit;
         }
     }

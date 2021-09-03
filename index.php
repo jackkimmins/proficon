@@ -93,8 +93,9 @@
                                 <div class="search d-flex align-items-center">
                                     <div id="tryItOut">
                                         <div>
-                                            <select class="form-select" style="display: none">
-                                                <option value="initials">initials</option>
+                                            <select class="form-select" id="txtType">
+                                                <option value="initials">Initials</option>
+                                                <option value="identicon">Identicons</option>
                                             </select>
                                         </div>
 
@@ -120,6 +121,13 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+
+    <script>
+
+        //Makes the default example seed accessible for the front-end JavaScript code.
+        const exampleSeed = '<?= $randomString ?>';
+
     </script>
     <script src="./js/script.js"></script>
 </body>
