@@ -19,6 +19,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proficon</title>
+    <meta name="description" content="Proficon is a simple-to-use HTTP-API for generating profile images for developers.">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/homepage.css">
@@ -32,6 +34,14 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="./favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://proficon.stablenetwork.uk/">
+    <meta property="og:description" content="Proficon is a simple-to-use HTTP-API for generating profile images for developers.">
+    <meta property="og:image" content="https://proficon.stablenetwork.uk/favicons/android-chrome-512x512.png">
+    <meta property="og:image:secure_url" content="https://proficon.stablenetwork.uk/favicons/android-chrome-512x512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
 </head>
 
 <body>
@@ -40,7 +50,7 @@
             <div class="container-fluid">
                 <img src="./img/logo.svg" width="26" class="me-2 shadow-sm">
                 <a class="navbar-brand" href="#">Proficon API</a>
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -69,7 +79,7 @@
                         <h1>Proficon HTTP API</h1>
                         <p>Proficon is a simple-to-use <strong>HTTP-API</strong> for generating profile images for developers. No API keys, no usage tracking and best of all, <strong>completely free</strong>.</p>
                         <p>Check out the demo and read the <a href="./documentation.php">documentation</a> to integrate the API with your project.</p>
-                        <a href="#" class="btn">GitHub</a>
+                        <a href="https://github.com/workingPlock/proficon" target="_blank" class="btn">GitHub</a>
                         <a href="./documentation.php" class="btn">Documentation</a>
                     </div>
 
