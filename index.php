@@ -74,7 +74,7 @@
 
         <div class="container-fluid d-flex align-items-center justify-content-center" id="hero">
             <div class="container">
-                <div class="row p-sm-2 p-lg-4">
+                <div class="row p-2 p-lg-4">
                     <div class="col-lg pr-lg-4 pt-2 pt-sm-0">
                         <h1>Proficon HTTP API</h1>
                         <p>Proficon is a simple-to-use <strong>HTTP-API</strong> for generating profile images for developers. No API keys, no usage tracking and best of all, <strong>completely free</strong>.</p>
