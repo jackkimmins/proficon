@@ -18,6 +18,16 @@ $validColours = array(
     "#A59132"
 );
 
+//Sets the correct headers for the image
+function imageHeaders($fileType = 'image/svg+xml') {
+    if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE'])) {
+        header('HTTP/1.1 304 Not Modified');
+        die();
+    }
+
+    header('Content-type: image/svg+xml');
+}
+
 // This function converts the random string seed into an integer, which then seeds the randomiser that picks a colour in the valid colours array.
 function getColour($seed, &$colours) {
     srand(crc32($seed));
@@ -35,7 +45,7 @@ function endsWith( $haystack, $needle ) {
 
 // This function creates the new initials profile image with the specified values.
 function newInitialsImg($colour = "black", $text = "?") {
-    header('Content-type: image/svg+xml');
+    imageHeaders();
 
     ?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
@@ -89,7 +99,7 @@ function newIdenticonImg($colour, $seed) {
     header('Content-type: image/svg+xml');
 
 ?>
-<svg viewBox="0 0 5 5" xmlns="http://www.w3.org/2000/svg" fill="<?= $colour ?>" style="background-color: #eeeeff;"><?php
+<svg viewBox="0 0 5 5" xmlns="http://www.w3.org/2000/svg" fill="<?= $colour ?>" style="background-color: #eeeeff;" shape-rendering="crispEdges"><?php
 
         // We then need to output the rectangles on the SVG image.
         // Remember that the fourth and fifth column are a reflection of first and second.
