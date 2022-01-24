@@ -1,6 +1,6 @@
 <?php
 
-    //Creates a random 2 character string to be used for the example profile.
+    //Creates a random 2 character string to be used for the example profile. 
     $characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     $charactersLength = strlen($characters);
 
